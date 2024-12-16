@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("0766859177,")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'banukaudula8@gmail.com'
@@ -17,7 +17,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'ALEX 𝐁𝐨𝐭' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME ===  undefined? 'ALEX' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,VAJIRA;;;HookedSimple
+  sessionName:  process.env.SESSION_ID === undefined ? tru : process.env.SESSION_ID,VAJIRA;;;HookedSimple
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'alex' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? 'VAJIRA-Md' : process.env.PACK_INFO.split(";")[1],
